@@ -1,0 +1,7 @@
+- dir(__builtins__) => get builtin functions
+
+funcs: 
+- int(10.5) => 10 / convert string to int int("100")
+- float(10) => 10.0
+- str() => convert integer to the string
+- help() => get man
