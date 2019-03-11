@@ -1,7 +1,13 @@
-- dir(__builtins__) => get builtin functions
+- dir(__builtins__, any variable) => get builtin functions
 
 funcs: 
 - int(10.5) => 10 / convert string to int int("100")
 - float(10) => 10.0
 - str() => convert integer to the string
 - help() => get man
+- [...] => create a list & get access to the list; list mixed with different data types; [-1] => get the first element from the end; [0:2] => another list including 1 and the last [from zero to one] == upper bound is excluded; [-2:] / [-2, -1] 
+- list methods: dir(list): append(), remove(), pop(1), 
+- tuples
+- {"key":value} => dictionaries: ["key"] to get a value; keys() / values() => get all keys / values; pop => delete; mydict = dict(zip(keys, values))
+- input == int(std::cin);
+- conditionals => if : ; else ;
