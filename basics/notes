@@ -10,4 +10,23 @@ funcs:
 - tuples
 - {"key":value} => dictionaries: ["key"] to get a value; keys() / values() => get all keys / values; pop => delete; mydict = dict(zip(keys, values))
 - input == int(std::cin);
-- conditionals => if : ; else ;
+- conditionals => if : ; else ; in operator; elif == else if
+- functions => can be used default parameter;
+- files => open("filename"); file.read(); file.close(); content is a list; seek vs read funcs; splitlines(): criteria == '\n'; One way to do this is to use the read()  method:
+
+myfile = open("fruits.txt")
+content = myfile.read()
+myfile.close()
+content = content.splitlines()
+for i in content:
+     print(len(i))
+Another way is to use readlines() :
+
+file = open("fruits.txt")
+content = file.readlines()
+content = [line.strip() for line in content]
+file.close()
+for i in content:
+    print(len(i))
+
+- text to file => "w" => write handling mode; write(); "a" => append text to the file; "a+"
