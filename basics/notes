@@ -30,3 +30,7 @@ for i in content:
     print(len(i))
 
 - text to file => "w" => write handling mode; write(); "a" => append text to the file; "a+"
+- glob2 library
+- from datatime import datatime: strptime("generate datetime from string")
+- zip(a,b)) => unite for the iteration purposes;
+- with as var: var.funcs()...
